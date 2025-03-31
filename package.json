@@ -1,0 +1,26 @@
+{
+  "name": "rushikesh-learning-express",
+  "version": "1.0.0",
+  "description": "learning express and mongoose ",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rushikesh1911/rushikesh-learning-express.js.git"
+  },
+  "keywords": [
+    "node"
+  ],
+  "author": "Rushikesh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rushikesh1911/rushikesh-learning-express.js/issues"
+  },
+  "homepage": "https://github.com/Rushikesh1911/rushikesh-learning-express.js#readme",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^5.1.0"
+  }
+}
