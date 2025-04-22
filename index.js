@@ -32,6 +32,8 @@ dotenv.config();
 
 
 const app = express();
+app.use(cors()) // Enable CORS for all routes
+app.use(express.json()) // Parse incoming JSON requests
 const port = process.env.PORT || 3000
 
 app.get('/', (req, res) => {
