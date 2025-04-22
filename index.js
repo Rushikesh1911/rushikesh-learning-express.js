@@ -35,7 +35,7 @@ app.get('/', (req, res) => {
 })
 
 app.get('/expense', (req, res) => {
-  res.send('Expense page  - Here you can see your expenses and add new ones')
+  res.send('Expense page  - Here you can see your expenses and add new ones and can make changes to it')
 })
 
 app.listen(port, () => {
